@@ -22,7 +22,6 @@ set_package_properties(LibDDemangle PROPERTIES
         URL "https://github.com/lievenhey/d_demangler"
         TYPE RUNTIME)
 
-
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_USE_QSTRINGBUILDER)
 add_subdirectory(app)
 add_subdirectory(tests)
